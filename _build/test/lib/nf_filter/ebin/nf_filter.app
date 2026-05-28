@@ -1,0 +1,11 @@
+{application,nf_filter,
+             [{description,"Emergence filter agent for NF standards (AFNOR boutique)"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{nf_filter_app,[]}},
+              {applications,[kernel,stdlib,em_filter]},
+              {env,[]},
+              {modules,[nf_filter_app]},
+              {licenses,["Apache-2.0"]},
+              {links,[{"GitHub",
+                       "https://github.com/EmergenceSystem/nf_filter"}]}]}.
