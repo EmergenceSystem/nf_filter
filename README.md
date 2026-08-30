@@ -3,6 +3,13 @@
 
 An [em_filter](https://hex.pm/packages/em_filter) agent that searches the [AFNOR boutique](https://www.boutique.afnor.org/) for French NF, NF EN, NF ISO and related standards and returns results as [Emergence](https://github.com/EmergenceSystem/em_disco) results.
 
+
+<!-- emergence-context -->
+Part of **[EmergenceSystem](https://github.com/EmergenceSystem)** — a distributed
+discovery network of small, single-source agents. This filter joins the em_pop gossip
+mesh and answers `POST /agent/query`; Emquest fans each query out to many filters in
+parallel and aggregates the results.
+
 ## Query
 
 Any NF standard reference or keyword accepted by the AFNOR boutique search.
